@@ -1,0 +1,7 @@
+{
+ "Author": "Urs Voegele",
+ "Repository": "git@github.com:elegoev/vagrant-kali-linux.git",
+ "OS": "Kali Linux",
+ "Description": "%desc%",
+ "Version Description": "%vdesc%"
+}
