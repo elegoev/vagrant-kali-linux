@@ -17,4 +17,3 @@ sudo systemctl start xrdp
 # sudo ufw disable
 sudo ufw allow ssh
 sudo ufw allow 3389
-sudo ufw enable
