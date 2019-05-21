@@ -1,4 +1,4 @@
-## Kali Linux for Vagrant
+## vagrant-kali-linux
 
 Vagrant Box with Kali Linux & xrdp
 
