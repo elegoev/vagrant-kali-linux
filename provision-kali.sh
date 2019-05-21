@@ -17,3 +17,6 @@ sudo systemctl start xrdp
 # sudo ufw disable
 sudo ufw allow ssh
 sudo ufw allow 3389
+
+# set version
+lsb_release -a | grep Release | awk '{print $2}' > /vagrant/version

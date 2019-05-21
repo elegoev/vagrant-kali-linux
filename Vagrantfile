@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
          v.customize ["modifyvm", :id, "--memory", 2048 ]
          v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
          v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
-         v.customize ["modifyvm", :id, "--groups", "/security_kali-linux" ]
+         v.customize ["modifyvm", :id, "--groups", "/security-kali-linux" ]
      end
 
      machine.vm.network "forwarded_port", guest: 3389, host: 8888, host_ip: "127.0.0.1"
